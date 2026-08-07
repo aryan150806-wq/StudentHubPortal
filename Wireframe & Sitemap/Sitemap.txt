@@ -1,0 +1,17 @@
+Sitemap:
+
+Student Hub Portal
+
+    HOME
+    |
+    |---Login
+    |---Register
+    |---Dashboard
+    |   |
+    |   |---Attendance
+    |   |---Profile
+    |   |---Assignments
+    |   |---Courses
+    |   |---Results
+    |
+    |---Contact
