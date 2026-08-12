@@ -1,1 +1,153 @@
+STUDENTHUB PORTAL – REQUIREMENT DOCUMENT
+
+Project Overview
+StudentHub Portal is a web-based student portal designed to provide students with important academic information in one place. The portal will include courses, attendance, assignments, results, profile details, and contact/support features. The project will first be developed using HTML, CSS, and JavaScript and can be extended with a backend and database later.
+
+Problem Statement
+Students often need to check academic information from different places. This can be time-consuming and confusing. StudentHub provides a simple and organized website where students can access their common academic information through a single portal.
+
+Objectives
+• Create a simple and user-friendly student portal.
+• Provide easy access to academic information.
+• Organize courses, attendance, assignments, and results.
+• Provide a student dashboard and profile page.
+• Create a proper project structure using Git and GitHub.
+• Keep the project ready for future backend development.
+
+User Roles
+• Student: Can login, view dashboard, courses, attendance, assignments, results, and profile.
+• Faculty: Future role for managing courses, attendance, assignments, and results.
+• Administrator: Future role for managing students, courses, and portal data.
+
+Functional Requirements
+Home page shall display the portal introduction, features, and navigation.
+Register page shall allow a new student to enter basic details.
+Login page shall provide a student login form.
+Dashboard shall show important academic information and quick links.
+Courses page shall display enrolled courses and basic course details.
+Attendance page shall show overall and subject-wise attendance.
+Assignments page shall show assignments, due dates, and status.
+Results page shall show semester and subject-wise results.
+Profile page shall show basic student and academic information.
+Contact page shall provide a form for student queries.
+All major pages shall have proper navigation links.
+Forms shall have basic input validation using JavaScript.
+
+
+Required Web Pages
+1. Home
+2. Login
+3. Register
+4. Dashboard
+5. Courses
+6. Attendance
+7. Assignments
+8. Results
+9. Profile
+10. Contact
+
+Non-Functional Requirements
+• The website should be simple and easy to use.
+• The website should be responsive on desktop and mobile screens.
+• Pages should load properly and have consistent design.
+• Files should be organized into HTML, CSS, JavaScript, and assets folders.
+• GitHub should be used to maintain project versions and commits.
+
+Navigation Flow
+Home → Login/Register → Dashboard → Courses / Attendance / Assignments / Results / Profile
+Home → Contact
+Logout → Home/Login
+
+For the initial project, navigation between HTML pages will be handled using links and relative file paths.
+
+Proposed Folder Structure
+StudentHubPortal/
+├── index.html
+├── pages/
+├── css/
+├── js/
+├── assets/
+├── docs/
+└── README.md
+
+Tools and Technologies
+HTML5, CSS3, JavaScript, VS Code, Draw.io/Figma, Git, and GitHub.
+
+
+STUDENTHUB PORTAL – REQUIREMENT DOCUMENT
+
+Project Overview
+StudentHub Portal is a web-based student portal designed to provide students with important academic information in one place. The portal will include courses, attendance, assignments, results, profile details, and contact/support features. The project will first be developed using HTML, CSS, and JavaScript and can be extended with a backend and database later.
+
+Problem Statement
+Students often need to check academic information from different places. This can be time-consuming and confusing. StudentHub provides a simple and organized website where students can access their common academic information through a single portal.
+
+Objectives
+• Create a simple and user-friendly student portal.
+• Provide easy access to academic information.
+• Organize courses, attendance, assignments, and results.
+• Provide a student dashboard and profile page.
+• Create a proper project structure using Git and GitHub.
+• Keep the project ready for future backend development.
+
+User Roles
+• Student: Can login, view dashboard, courses, attendance, assignments, results, and profile.
+• Faculty: Future role for managing courses, attendance, assignments, and results.
+• Administrator: Future role for managing students, courses, and portal data.
+
+Functional Requirements
+Home page shall display the portal introduction, features, and navigation.
+Register page shall allow a new student to enter basic details.
+Login page shall provide a student login form.
+Dashboard shall show important academic information and quick links.
+Courses page shall display enrolled courses and basic course details.
+Attendance page shall show overall and subject-wise attendance.
+Assignments page shall show assignments, due dates, and status.
+Results page shall show semester and subject-wise results.
+Profile page shall show basic student and academic information.
+Contact page shall provide a form for student queries.
+All major pages shall have proper navigation links.
+Forms shall have basic input validation using JavaScript.
+
+
+Required Web Pages
+1. Home
+2. Login
+3. Register
+4. Dashboard
+5. Courses
+6. Attendance
+7. Assignments
+8. Results
+9. Profile
+10. Contact
+
+Non-Functional Requirements
+• The website should be simple and easy to use.
+• The website should be responsive on desktop and mobile screens.
+• Pages should load properly and have consistent design.
+• Files should be organized into HTML, CSS, JavaScript, and assets folders.
+• GitHub should be used to maintain project versions and commits.
+
+Navigation Flow
+Home → Login/Register → Dashboard → Courses / Attendance / Assignments / Results / Profile
+Home → Contact
+Logout → Home/Login
+
+For the initial project, navigation between HTML pages will be handled using links and relative file paths.
+
+Proposed Folder Structure
+StudentHubPortal/
+├── index.html
+├── pages/
+├── css/
+├── js/
+├── assets/
+├── docs/
+└── README.md
+
+Tools and Technologies
+HTML5, CSS3, JavaScript, VS Code, Draw.io/Figma, Git, and GitHub.
+
+
 
