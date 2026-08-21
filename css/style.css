@@ -1,1 +1,433 @@
+/* =========================================
+   StudentHub Portal
+   Practical 3 - Responsive UI Design
+   CSS Grid + Flexbox + Media Queries
+   ========================================= */
 
+
+/* ---------- Basic Reset ---------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* ---------- Body ---------- */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    color: #222;
+    line-height: 1.6;
+}
+
+
+/* =========================================
+   HEADER
+   ========================================= */
+
+header {
+    background-color: #1e3a5f;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+
+/* ---------- Logo and Website Name ---------- */
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.logo-container img {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+    border-radius: 8px;
+}
+
+.logo-container h1 {
+    margin: 0;
+    font-size: 30px;
+}
+
+
+/* =========================================
+   NAVIGATION
+   ========================================= */
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #315b87;
+}
+
+
+/* =========================================
+   MAIN CONTENT
+   ========================================= */
+
+main {
+    width: 90%;
+    max-width: 1100px;
+    margin: 25px auto;
+}
+
+
+/* =========================================
+   SECTIONS
+   ========================================= */
+
+section {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #1e3a5f;
+    margin-bottom: 15px;
+}
+
+section h3 {
+    color: #315b87;
+    margin-bottom: 8px;
+}
+
+
+/* =========================================
+   ARTICLES / CARDS
+   ========================================= */
+
+article {
+    background-color: #f8fafc;
+    padding: 18px;
+    margin: 12px 0;
+    border-left: 4px solid #1e3a5f;
+    border-radius: 5px;
+}
+
+
+/* =========================================
+   CARD GRID
+   ========================================= */
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.card-container h2 {
+    grid-column: 1 / -1;
+}
+
+
+/* =========================================
+   ASIDE
+   ========================================= */
+
+aside {
+    width: 90%;
+    max-width: 1100px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #e8f1fa;
+    border-left: 5px solid #1e3a5f;
+    border-radius: 5px;
+}
+
+aside h2 {
+    color: #1e3a5f;
+    margin-bottom: 8px;
+}
+
+
+/* =========================================
+   LINKS
+   ========================================= */
+
+main a {
+    color: #1e5a96;
+    font-weight: bold;
+}
+
+main a:hover {
+    text-decoration: underline;
+}
+
+
+/* =========================================
+   FORMS
+   ========================================= */
+
+form {
+    max-width: 600px;
+    margin: auto;
+}
+
+form p {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+
+/* =========================================
+   BUTTONS
+   ========================================= */
+
+button {
+    background-color: #1e3a5f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #315b87;
+}
+
+
+/* =========================================
+   TABLES
+   ========================================= */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background-color: white;
+}
+
+caption {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+th,
+td {
+    padding: 12px;
+    border: 1px solid #aaa;
+    text-align: left;
+}
+
+th {
+    background-color: #1e3a5f;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f1f4f7;
+}
+
+
+/* =========================================
+   FOOTER
+   ========================================= */
+
+footer {
+    background-color: #1e3a5f;
+    color: white;
+    text-align: center;
+    padding: 18px;
+    margin-top: 30px;
+}
+
+
+/* =========================================
+   TABLET VIEW
+   768px and above
+   ========================================= */
+
+@media screen and (min-width: 768px) {
+
+    header {
+        padding: 25px;
+    }
+
+    nav {
+        gap: 12px;
+    }
+
+    main {
+        width: 85%;
+    }
+
+    article {
+        min-height: 120px;
+    }
+}
+
+
+/* =========================================
+   DESKTOP VIEW
+   1024px and above
+   ========================================= */
+
+@media screen and (min-width: 1024px) {
+
+    main {
+        max-width: 1200px;
+    }
+
+    .card-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    nav a {
+        padding: 10px 15px;
+    }
+
+    section {
+        padding: 30px;
+    }
+}
+
+
+/* =========================================
+   MOBILE VIEW
+   Below 768px
+   ========================================= */
+
+@media screen and (max-width: 767px) {
+
+    /* Header */
+
+    header {
+        padding: 15px;
+    }
+
+
+    /* Logo */
+
+    .logo-container {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .logo-container img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .logo-container h1 {
+        font-size: 22px;
+    }
+
+
+    /* Navigation */
+
+    nav {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    nav a {
+        display: block;
+        text-align: center;
+        background-color: #315b87;
+        margin-bottom: 3px;
+    }
+
+
+    /* Main */
+
+    main {
+        width: 94%;
+        margin: 15px auto;
+    }
+
+
+    /* Sections */
+
+    section {
+        padding: 18px;
+    }
+
+
+    /* Cards */
+
+    .card-container {
+        grid-template-columns: 1fr;
+    }
+
+    .card-container h2 {
+        grid-column: auto;
+    }
+
+    article {
+        padding: 15px;
+    }
+
+
+    /* Aside */
+
+    aside {
+        width: 94%;
+    }
+
+
+    /* Tables */
+
+    table {
+        font-size: 14px;
+    }
+
+    th,
+    td {
+        padding: 8px;
+    }
+
+
+    /* Forms */
+
+    input,
+    select,
+    textarea {
+        font-size: 16px;
+    }
+}
