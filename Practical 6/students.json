@@ -1,0 +1,107 @@
+[
+  {
+    "id": 101,
+    "name": "Aarav Patel",
+    "email": "aarav.patel@example.com",
+    "course": "BTech IT",
+    "year": 2
+  },
+  {
+    "id": 102,
+    "name": "Riya Shah",
+    "email": "riya.shah@example.com",
+    "course": "BTech CSE",
+    "year": 2
+  },
+  {
+    "id": 103,
+    "name": "Dev Mehta",
+    "email": "dev.mehta@example.com",
+    "course": "BTech IT",
+    "year": 3
+  },
+  {
+    "id": 104,
+    "name": "Neha Joshi",
+    "email": "neha.joshi@example.com",
+    "course": "BTech CE",
+    "year": 2
+  },
+  {
+    "id": 105,
+    "name": "Karan Desai",
+    "email": "karan.desai@example.com",
+    "course": "BTech CSE",
+    "year": 3
+  },
+  {
+    "id": 106,
+    "name": "Ishita Trivedi",
+    "email": "ishita.trivedi@example.com",
+    "course": "BTech IT",
+    "year": 1
+  },
+  {
+    "id": 107,
+    "name": "Manav Shah",
+    "email": "manav.shah@example.com",
+    "course": "BTech CE",
+    "year": 4
+  },
+  {
+    "id": 108,
+    "name": "Anaya Patel",
+    "email": "anaya.patel@example.com",
+    "course": "BTech CSE",
+    "year": 2
+  },
+  {
+    "id": 109,
+    "name": "Dhruv Parmar",
+    "email": "dhruv.parmar@example.com",
+    "course": "BTech IT",
+    "year": 3
+  },
+  {
+    "id": 110,
+    "name": "Mira Dave",
+    "email": "mira.dave@example.com",
+    "course": "BTech CE",
+    "year": 1
+  },
+  {
+    "id": 111,
+    "name": "Vivaan Joshi",
+    "email": "vivaan.joshi@example.com",
+    "course": "BTech CSE",
+    "year": 4
+  },
+  {
+    "id": 112,
+    "name": "Diya Mehta",
+    "email": "diya.mehta@example.com",
+    "course": "BTech IT",
+    "year": 2
+  },
+  {
+    "id": 113,
+    "name": "Yash Patel",
+    "email": "yash.patel@example.com",
+    "course": "BTech CE",
+    "year": 3
+  },
+  {
+    "id": 114,
+    "name": "Kiara Shah",
+    "email": "kiara.shah@example.com",
+    "course": "BTech CSE",
+    "year": 1
+  },
+  {
+    "id": 115,
+    "name": "Harsh Trivedi",
+    "email": "harsh.trivedi@example.com",
+    "course": "BTech IT",
+    "year": 4
+  }
+]
