@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "title": "Tech Fest 2026",
+    "date": "2026-10-15",
+    "category": "Technical",
+    "location": "CHARUSAT Campus"
+  },
+  {
+    "id": 2,
+    "title": "Coding Contest",
+    "date": "2026-10-20",
+    "category": "Competition",
+    "location": "Computer Lab 1"
+  },
+  {
+    "id": 3,
+    "title": "Web Development Workshop",
+    "date": "2026-10-25",
+    "category": "Workshop",
+    "location": "Seminar Hall"
+  },
+  {
+    "id": 4,
+    "title": "Sports Day",
+    "date": "2026-11-02",
+    "category": "Sports",
+    "location": "University Ground"
+  },
+  {
+    "id": 5,
+    "title": "AI Seminar",
+    "date": "2026-11-08",
+    "category": "Seminar",
+    "location": "Auditorium"
+  },
+  {
+    "id": 6,
+    "title": "Hackathon 2026",
+    "date": "2026-11-15",
+    "category": "Competition",
+    "location": "Innovation Lab"
+  },
+  {
+    "id": 7,
+    "title": "Photography Contest",
+    "date": "2026-11-20",
+    "category": "Cultural",
+    "location": "Main Block"
+  },
+  {
+    "id": 8,
+    "title": "Career Guidance Session",
+    "date": "2026-11-25",
+    "category": "Career",
+    "location": "Seminar Hall"
+  },
+  {
+    "id": 9,
+    "title": "Cyber Security Workshop",
+    "date": "2026-12-03",
+    "category": "Workshop",
+    "location": "Computer Lab 2"
+  },
+  {
+    "id": 10,
+    "title": "Annual Cultural Fest",
+    "date": "2026-12-10",
+    "category": "Cultural",
+    "location": "University Ground"
+  },
+  {
+    "id": 11,
+    "title": "Cloud Computing Seminar",
+    "date": "2026-12-15",
+    "category": "Technical",
+    "location": "Auditorium"
+  },
+  {
+    "id": 12,
+    "title": "Robotics Exhibition",
+    "date": "2026-12-18",
+    "category": "Technical",
+    "location": "Innovation Lab"
+  },
+  {
+    "id": 13,
+    "title": "Resume Building Workshop",
+    "date": "2027-01-05",
+    "category": "Career",
+    "location": "Seminar Hall"
+  },
+  {
+    "id": 14,
+    "title": "Inter College Cricket",
+    "date": "2027-01-12",
+    "category": "Sports",
+    "location": "University Ground"
+  },
+  {
+    "id": 15,
+    "title": "Music and Dance Night",
+    "date": "2027-01-20",
+    "category": "Cultural",
+    "location": "Main Stage"
+  }
+]

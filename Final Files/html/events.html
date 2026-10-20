@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>StudentHub - Events</title>
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="data-page">
+<header>
+        <div class="header-top">
+            <div class="logo-container">
+                <img src="../images/logo.jpg" alt="StudentHub Portal Logo">
+                <h1>StudentHub Portal</h1>
+            </div>
+            <div class="header-actions">
+                <button id="notificationButton" class="icon-button" type="button" aria-label="View notifications">🔔 <span id="notificationCount">3</span></button>
+                <button id="themeButton" class="icon-button" type="button" aria-label="Switch to dark mode">🌙</button>
+                <button id="menuButton" class="menu-button" type="button" aria-controls="navMenu" aria-expanded="false" aria-label="Open navigation menu">☰</button>
+            </div>
+        </div>
+        <nav id="navMenu" aria-label="Main Navigation">
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="login.html">Login</a>
+            <a class="nav-link" href="register.html">Register</a>
+            <a class="nav-link" href="dashboard.html">Dashboard</a>
+            <a class="nav-link" href="courses.html">Courses</a>
+            <a class="nav-link" href="attendance.html">Attendance</a>
+            <a class="nav-link" href="assignments.html">Assignments</a>
+            <a class="nav-link" href="results.html">Results</a>
+            <a class="nav-link" href="profile.html">Profile</a>
+            <a class="nav-link" href="contact.html">Contact</a>
+            <a class="nav-link" href="events.html">Events</a>
+        </nav>
+    </header>
+<main class="data-container">
+<h2>Events</h2>
+<p>Practical 6: Rendering external JSON data using Fetch API.</p>
+<div class="data-controls">
+<label>Data:
+<select id="dataType">
+<option value="events" selected>Events</option>
+<option value="students">Students</option>
+<option value="faqs">FAQs</option>
+</select></label>
+<input id="searchBox" type="text" placeholder="Search records...">
+<select id="filterBox"><option value="all">All</option></select>
+<select id="sortBox"><option value="default">Default</option><option value="asc">A-Z</option><option value="desc">Z-A</option></select>
+</div>
+<p id="dataStatus" class="data-status">Loading JSON data...</p>
+<section id="dataContainer" class="data-grid" aria-live="polite"></section>
+<div class="pagination">
+<button id="previousButton" type="button">Previous</button>
+<span id="pageInfo">Page 1</span>
+<button id="nextButton" type="button">Next</button>
+</div>
+</main>
+<script src="../js/script.js"></script>
+</body>
+</html>

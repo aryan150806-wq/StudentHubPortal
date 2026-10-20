@@ -1,0 +1,77 @@
+[
+  {
+    "id": 1,
+    "question": "What is StudentHub?",
+    "answer": "StudentHub is a portal for managing student information and activities."
+  },
+  {
+    "id": 2,
+    "question": "How do I register?",
+    "answer": "Open the Register page and fill in the required details."
+  },
+  {
+    "id": 3,
+    "question": "How do I login?",
+    "answer": "Use your registered email and password on the Login page."
+  },
+  {
+    "id": 4,
+    "question": "Where can I see events?",
+    "answer": "Events can be viewed in the StudentHub event section."
+  },
+  {
+    "id": 5,
+    "question": "Can I update my profile?",
+    "answer": "Yes, profile information can be updated from the Profile page."
+  },
+  {
+    "id": 6,
+    "question": "Where can I check attendance?",
+    "answer": "Open the Attendance page to view attendance information."
+  },
+  {
+    "id": 7,
+    "question": "Where are my results?",
+    "answer": "Your academic results are available on the Results page."
+  },
+  {
+    "id": 8,
+    "question": "How can I contact StudentHub?",
+    "answer": "Use the Contact page to send your message."
+  },
+  {
+    "id": 9,
+    "question": "Can I search student records?",
+    "answer": "Yes, the student data section provides a search option."
+  },
+  {
+    "id": 10,
+    "question": "What data can be loaded from JSON?",
+    "answer": "StudentHub can load events, students, and FAQ data from JSON files."
+  },
+  {
+    "id": 11,
+    "question": "How can I search events?",
+    "answer": "Use the search box on the Events page to find an event."
+  },
+  {
+    "id": 12,
+    "question": "Can I filter student data?",
+    "answer": "Yes, student records can be filtered by course."
+  },
+  {
+    "id": 13,
+    "question": "Can JSON data be sorted?",
+    "answer": "Yes, the Data Explorer provides A-Z and Z-A sorting."
+  },
+  {
+    "id": 14,
+    "question": "What is pagination?",
+    "answer": "Pagination divides many records into smaller pages for easier viewing."
+  },
+  {
+    "id": 15,
+    "question": "What is Fetch API?",
+    "answer": "Fetch API is used to request and read data from JSON files."
+  }
+]
